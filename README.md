@@ -16,6 +16,7 @@
 ## Literature Review
 - [HELOC Risk Prediction - Siyuan Feng](https://siyuan09.github.io/project/loan/)
 - [Scorecard Monitoring Tutorial](https://gnpalencia.org/optbinning/tutorials/tutorial_scorecard_monitoring.html)
+- [FICO Website - HELOC Dataset Information](https://community.fico.com/s/explainable-machine-learning-challenge?tabset-158d9=d157e)
 
 ## Data Description
 The dataset used for this project is the Huggingface HELOC dataset. It contains various attributes related to customer credit applications, such as credit score, income, existing debts, and other relevant financial metrics.
