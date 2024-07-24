@@ -1,5 +1,5 @@
 # Home Equity Lines of Credit (HELOC) Classification Project
-## Introduction and Project Outline
+## Introduction
 - The goal of this project is to develop a machine learning model to predict the approval status (either approved or denied) for Home Equity Lines of Credit (HELOC) based on customer attributes in their applications. The model will be trained using the Huggingface HELOC dataset.
 
 ## Business Application and Impact
@@ -14,6 +14,8 @@
 - Improved Decision Explanation: The model provides explainable results, enabling communication of reasons for denial to applicants. This transparency helps applicants understand and improve on the factors influencing their application outcomes, such as income, debt levels, credit scores, or credit history length.
 
 ## Literature Review
+- [HELOC Risk Prediction - Siyuan Feng](https://siyuan09.github.io/project/loan/)
+- [Scorecard Monitoring Tutorial](https://gnpalencia.org/optbinning/tutorials/tutorial_scorecard_monitoring.html)
 
 ## Data Description
 The dataset used for this project is the Huggingface HELOC dataset. It contains various attributes related to customer credit applications, such as credit score, income, existing debts, and other relevant financial metrics.
