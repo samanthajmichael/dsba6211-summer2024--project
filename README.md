@@ -1,11 +1,11 @@
 # Home Equity Lines of Credit (HELOC) Classification Project
 ## Introduction
-- The goal of this project is to develop a machine learning model to predict the approval status (either approved or denied) for Home Equity Lines of Credit (HELOC) based on customer attributes in their applications. The model will be trained using the Huggingface HELOC dataset.
+- The goal of this project is to develop a machine learning model to predict whether a customer will pay back their Home Equity Line of Credit (HELOC) within two years based on attributes in their loan application. The model will be trained using the Huggingface HELOC dataset provided by FICO.
 
 ## Business Application and Impact
 ### This project aims to enhance the efficiency and accuracy of the HELOC application process. Specifically, it will:
 
-- Improve Application Response Time: By automating the classification process, we can provide faster decisions on applications.
+- Improve Application Response Time: By automating the classification process, faster decisions on applications can be made.
 - Maximize 'Goods' and Minimize 'Bads': The model will aim to correctly identify credit-worthy applicants ('goods') and reject non-credit-worthy ones ('bads'), thereby improving overall revenue generation.
 
 ### Impacts:
@@ -19,7 +19,7 @@
 - [FICO Website - HELOC Dataset Information](https://community.fico.com/s/explainable-machine-learning-challenge?tabset-158d9=d157e)
 
 ## Data Description
-The dataset used for this project is the Huggingface HELOC dataset. It contains various attributes related to customer credit applications, such as credit score, income, existing debts, and other relevant financial metrics.
+The dataset used for this project is the Huggingface HELOC dataset from FICO. The sample includes 10,459 instances with each row representing a customer's loan application details and their classification label. The data was collected over a two year period and a stratified random sample was constructed out of a total of 242,000 customer accounts. Of those 10,459 instances, the distribution of "good accounts" to "bad accounts" is right around 50%. According to FICO, only 5,459 accounts made a seriously late payment during the collection window and all those accounts have been labeled as bad accounts. 
 
 ## Methodology
 
