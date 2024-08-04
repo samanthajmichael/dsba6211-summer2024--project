@@ -1,6 +1,6 @@
 # Home Equity Lines of Credit (HELOC) Classification Project
 ## Introduction
-- The goal of this project is to develop a machine learning model to predict whether a customer will pay back their Home Equity Line of Credit (HELOC) within two years based on attributes in their loan application. The model will be trained using the Huggingface HELOC dataset provided by FICO.
+The goal of this project is to develop a machine learning model to predict whether a customer will pay back their Home Equity Line of Credit (HELOC) within two years based on attributes in their loan application. The model will be trained using the Huggingface HELOC dataset provided by FICO.
 
 ## Business Application and Impact
 ### This project aims to enhance the efficiency and accuracy of the HELOC application process. Specifically, it will:
@@ -21,10 +21,4 @@
 ## Data Description
 The dataset used for this project is the Huggingface HELOC dataset from FICO. The sample includes 10,459 instances with each row representing a customer's loan application details and their classification label. The data was collected over a two year period and a stratified random sample was constructed out of a total of 242,000 customer accounts. Of those 10,459 instances, the distribution of "good accounts" to "bad accounts" is right around 50%. According to FICO, only 5,459 accounts made a seriously late payment during the collection window and all those accounts have been labeled as bad accounts. 
 
-## Methodology
-
-## Results
-
-## Future Work
-
-## Conclusion
+The anonymized dataset was obtained from the [Huggingface API](https://huggingface.co/datasets/mstz/heloc) and was prepared by FICO. It contains a comprehensive look into the credit attributes of customers looking to obtain a home equity line of credit (HELOC) in the amount of $5,000 - $150,000 and whether they will repay it within a 2 year time period. 
